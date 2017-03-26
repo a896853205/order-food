@@ -1,0 +1,17 @@
+/**
+ * @file 头部桌位css
+ * @author Qc<896853205@qq.com>
+ */
+
+/* ---头部桌位-开始--- */
+.header-info {
+    background-color: rgb(114,193,98);
+    padding:10px 20px;
+}
+.header-info h1 {
+    color: #fff;
+    font-size:16px;
+    font-weight: 400;
+    margin:0;
+}
+/* ---头部桌位-结束--- */

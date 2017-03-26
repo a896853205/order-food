@@ -1,0 +1,36 @@
+/**
+ * @file 页面基础css
+ * @author Qc<896853205@qq.com>
+ */
+
+/* --- 页面基础-开始 --- */
+* {
+    margin: 0;
+    padding: 0;
+}
+html,body {
+    font-family: "Montserrat", "微软雅黑";
+    font-size: 14px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#main {
+    height: 100%;
+    width: 100%;
+}
+.body {
+    overflow: auto;
+    height: calc(100% - 174px);
+    position: relative;
+}
+/* --- 页面基础-结束 --- */
+
+/* ---工具样式--- */
+.text-red {
+    color: rgb(232,56,40);
+}
+.text-bold {
+    font-weight: bold;
+    font-size: 16px;
+}

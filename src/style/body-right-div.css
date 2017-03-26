@@ -1,0 +1,51 @@
+/**
+ * @file 右侧主体css
+ * @author Qc<896853205@qq.com>
+ */
+
+/* ---主体部分-开始--- */
+.body-right-div {
+    width: calc(100% - 100px);
+    margin-left: 100px;
+    float: left;
+}
+.body-right-div .right-main {
+    padding: 10px;
+    overflow: hidden;
+    border-bottom: 2px solid rgb(242,242,242);
+}
+.right-main img {
+    width: 60px;
+    height: 60px;
+    background: #ddd;
+    float: left;
+    margin-right:10px;
+}
+.right-main .right-info-div {
+    float: left;
+    position: relative;
+    height: 60px;
+    width: calc(100% - 70px);
+}
+.right-main .right-h5 {
+    font-weight:400;
+    font-size:16px;
+}
+.right-main .right-price-span {
+    position:absolute;
+    bottom:0;
+    left:0;
+}
+.right-main .right-add-button {
+    position: absolute;
+    background: rgb(232,56,40);
+    color:#fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    font-weight: 800;
+    border: 0;
+    right: 0;
+    bottom: 0;
+}
+/* ---主体部分-结束--- */

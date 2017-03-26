@@ -1,0 +1,23 @@
+/**
+ * @file 头部滚动css
+ * @author Qc<896853205@qq.com>
+ */
+
+/* --- 头部滚动-开始 --- */
+.head-adv {
+    background: rgb(255,245,235);
+    position:relative;
+    padding:3px 5px;
+}
+.head-adv .fa-volume-up {
+    color: rgb(232,56,40);
+}
+.head-adv span {
+    font-size: 14px;
+}
+.head-adv .fa-close {
+    color: rgb(255,152,0);
+    position: absolute;
+    right:5px;
+}
+/* --- 头部滚动-结束 --- */

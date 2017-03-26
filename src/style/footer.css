@@ -1,0 +1,62 @@
+/**
+ * @file 脚部选项css
+ * @author Qc<896853205@qq.com>
+ */
+/* ---底部结算-开始--- */
+.foot-calculate {
+    background: rgb(233,84,70);
+    color: #fff;
+    padding:10px;
+    font-size: 18px;
+}
+.foot-calculate .foot-claculate-num {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.foot-calculate .over-button {
+    border: 0;
+    float: right;
+    background: #fff;
+    color: rgb(233,84,70);
+    border-radius:15px;
+    padding:5px 8px;
+    font-family: "Montserrat", "微软雅黑";
+}
+/* ---底部结算-结束--- */
+/* ---脚步导航-开始--- */
+footer {
+    background: rgb(248,249,248);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer nav ul li {
+    width: 33%;
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    font-size:18px;
+    color: rgb(186,186,186);
+    padding-bottom:5px;
+}
+footer nav ul li .fa {
+    line-height:40px;
+    font-size:25px;
+}
+footer nav ul li p {
+    color: rgb(178,178,178);
+}
+footer nav ul li:nth-child(1) {
+    width: 34%;
+}
+.foot-active p,.foot-active .fa{
+    color: rgb(232,66,50);
+}
+/* ---脚步导航-结束--- */

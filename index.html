@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小二点餐</title>
+    <script src="https://use.fontawesome.com/e2034a5dd2.js"></script>
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+</head>
+<body>
+    <div id="main">
+        <!-- 头部滚动-开始 -->
+        <section class="head-adv">
+            <i class="fa fa-volume-up"></i>
+            <span>满10元送配送费</span>
+            <i class="fa fa-close"></i>
+        </section>
+        <!-- 头部滚动-结束 -->
+        <!-- 头部桌位-开始 -->
+        <header class="header-info">
+            <h1>馋嘴肉蟹煲欢迎您</h1>
+        </header>
+        <!-- 头部桌位-结束 -->
+        <!-- 身体展示-开始 -->
+        <section class="body">
+            <!-- 左边菜单-开始 -->
+            <nav class="body-nav">
+                <ul>
+                    <li>店铺推荐</li>
+                    <li class="active">水果单品</li>
+                    <li>干果零食</li>
+                </ul>
+            </nav>
+            <!-- 左边菜单-结束 -->
+            <!-- 右边具体-开始 -->
+            <div class="body-right-div" id="rightMain">
+                <div class="right-main" v-for="item in allData">
+                    <img src="" alt="">
+                    <div class="right-info-div">
+                        <h5 class="right-h5">{{item.cTitle}}</h5>
+                        <span class="right-price-span">
+                        <span class="text-red text-bold">¥{{item.cPrice}}</span> /{{item.cUnit}}
+                    </span>
+                        <!--<button>+</button>-->
+                        <button class="right-add-button" v-on:click="addMeal(item.cPrice)"><i class="fa fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+            <!-- 右边具体-结束 -->
+        </section>
+        <!-- 身体展示-结束 -->
+        <!-- 底部菜单-开始 -->
+        <footer>
+            <!-- 底部结算-开始 -->
+            <section class="foot-calculate">
+                <span class="foot-claculate-num">{{nowNum}}</span>
+                总价:
+                <span>¥ {{nowPrice}}</span>
+                <button class="over-button">选好了</button>
+            </section>
+            <!-- 底部结算-结束 -->
+            <nav>
+                <ul>
+                    <li>
+                        <i class="fa fa-cutlery"></i>
+                        <p>菜排</p>
+                    </li>
+                    <li class="foot-active">
+                        <i class="fa fa-eye"></i>
+                        <p>已选择</p>
+                    </li>
+                    <li>
+                        <i class="fa fa-bell-o"></i>
+                        <p>叫服务</p>
+                    </li>
+                </ul>
+            </nav>
+        </footer>
+        <!-- 底部菜单-结束 -->
+    </div>
+</body>
+</html>
