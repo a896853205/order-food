@@ -19,7 +19,7 @@
 }
 .span-unit-num {
     position: absolute;
-    display: inline-block;
+    display: block;
     width: 18px;
     height: 18px;
     top: 3px;
