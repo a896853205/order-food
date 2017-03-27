@@ -53,8 +53,37 @@ import mainData from './data/main.json';
 			            }
             			this.nowPrice = pointAdd(this.nowPrice, window.parseFloat(price.cPrice));
                         this.nowNum++;
+                        // 当前菜数量增加
+			            price.pointNum++;
+			            // 单元数量增加
 			            unit.unitPointNum++;
             		},
+		            /**
+		             * 减菜
+		             *
+		             * @param {object} price 当前菜
+		             * @param {object} unit 当前菜单
+		             */
+		            minusMeal(price, unit){
+			            /**
+			             * 1位小数相减
+			             *
+			             * @param {number} num1 第一个数
+			             * @param {number} num2 第二个数
+			             * @result {number} result 相减结果
+			             */
+			            function pointMinus (num1, num2){
+				            num1 *= 10;
+				            num2 *= 10;
+				            return (num1 - num2) / 10;
+			            }
+			            this.nowPrice = pointMinus(this.nowPrice, window.parseFloat(price.cPrice));
+			            this.nowNum--;
+			            // 当前菜数量减少
+			            price.pointNum--;
+			            // 单元数量减少
+			            unit.unitPointNum--;
+		            },
 		            /**
 		             * 菜单选择
 		             *

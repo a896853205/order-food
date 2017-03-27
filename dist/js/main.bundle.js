@@ -9440,7 +9440,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, "/**\r\n * @file 右侧主体css\r\n * @author Qc<896853205@qq.com>\r\n */\r\n\r\n/* ---主体部分-开始--- */\r\n.body-right-div {\r\n    width: calc(100% - 100px);\r\n    margin-left: 100px;\r\n    float: left;\r\n}\r\n.body-right-div .right-main {\r\n    padding: 10px;\r\n    overflow: hidden;\r\n    border-bottom: 2px solid rgb(242,242,242);\r\n}\r\n.right-main img {\r\n    width: 60px;\r\n    height: 60px;\r\n    background: #ddd;\r\n    float: left;\r\n    margin-right:10px;\r\n}\r\n.right-main .right-info-div {\r\n    float: left;\r\n    position: relative;\r\n    height: 60px;\r\n    width: calc(100% - 70px);\r\n}\r\n.right-main .right-h5 {\r\n    font-weight:400;\r\n    font-size:16px;\r\n}\r\n.right-main .right-price-span {\r\n    position:absolute;\r\n    bottom:0;\r\n    left:0;\r\n}\r\n.right-main .right-add-button {\r\n    position: absolute;\r\n    background: rgb(232,56,40);\r\n    color:#fff;\r\n    width: 25px;\r\n    height: 25px;\r\n    border-radius: 50%;\r\n    font-weight: 800;\r\n    border: 0;\r\n    right: 0;\r\n    bottom: 0;\r\n}\r\n/* ---主体部分-结束--- */", ""]);
+exports.push([module.i, "/**\r\n * @file 右侧主体css\r\n * @author Qc<896853205@qq.com>\r\n */\r\n\r\n/* ---主体部分-开始--- */\r\n.body-right-div {\r\n    width: calc(100% - 100px);\r\n    margin-left: 100px;\r\n    float: left;\r\n}\r\n.body-right-div .right-main {\r\n    padding: 10px;\r\n    overflow: hidden;\r\n    border-bottom: 2px solid rgb(242,242,242);\r\n}\r\n.right-main img {\r\n    width: 60px;\r\n    height: 60px;\r\n    background: #ddd;\r\n    float: left;\r\n    margin-right:10px;\r\n}\r\n.right-main .right-info-div {\r\n    float: left;\r\n    position: relative;\r\n    height: 60px;\r\n    width: calc(100% - 70px);\r\n}\r\n.right-main .right-h5 {\r\n    font-weight:400;\r\n    font-size:16px;\r\n}\r\n.right-main .right-price-span {\r\n    position:absolute;\r\n    bottom:0;\r\n    left:0;\r\n}\r\n.right-main .right-config {\r\n    position: absolute;\r\n    right: 0;\r\n    bottom: 0;\r\n    overflow: hidden;\r\n}\r\n.right-main .right-config .right-minus-button {\r\n    float: left;\r\n    border-radius: 12.5px 0 0 12.5px;\r\n    width: 25px;\r\n    height: 25px;\r\n    border: 1px solid rgb(232,56,40);\r\n    border-right: 0;\r\n    background: #fff;\r\n    color: rgb(232,56,40);\r\n}\r\n.right-main .right-config .right-minus-button-group {\r\n    float: left;\r\n    overflow: hidden;\r\n    -webkit-transition: .3s;\r\n    transition: .3s;\r\n}\r\n.right-main .right-config .right-minus-button-group .right-show-num {\r\n    float: left;\r\n    width: 25px;\r\n    height: 25px;\r\n    border: 1px solid rgb(232,56,40);\r\n    text-align: center;\r\n    line-height: 25px;\r\n    box-sizing: border-box;\r\n}\r\n.right-main .right-config .right-add-button {\r\n    background: rgb(232,56,40);\r\n    color:#fff;\r\n    width: 25px;\r\n    height: 25px;\r\n    border-radius: 50%;\r\n    font-weight: 800;\r\n    border: transparent;\r\n    -webkit-transition: .5s;\r\n    transition: .5s;\r\n}\r\n.right-main .right-config .right-add-button-active {\r\n    background: rgb(232,56,40);\r\n    color:#fff;\r\n    width: 25px;\r\n    height: 25px;\r\n    border-radius: 0 12.5px 12.5px 0;\r\n    font-weight: 800;\r\n    border: transparent;\r\n    -webkit-transition: .5s;\r\n    transition: .5s;\r\n}\r\n/* ---主体部分-结束--- */", ""]);
 
 // exports
 
@@ -11576,7 +11576,37 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 						}
 						this.nowPrice = pointAdd(this.nowPrice, window.parseFloat(price.cPrice));
 						this.nowNum++;
+						// 当前菜数量增加
+						price.pointNum++;
+						// 单元数量增加
 						unit.unitPointNum++;
+					},
+
+					/**
+      * 减菜
+      *
+      * @param {object} price 当前菜
+      * @param {object} unit 当前菜单
+      */
+					minusMeal: function minusMeal(price, unit) {
+						/**
+       * 1位小数相减
+       *
+       * @param {number} num1 第一个数
+       * @param {number} num2 第二个数
+       * @result {number} result 相减结果
+       */
+						function pointMinus(num1, num2) {
+							num1 *= 10;
+							num2 *= 10;
+							return (num1 - num2) / 10;
+						}
+						this.nowPrice = pointMinus(this.nowPrice, window.parseFloat(price.cPrice));
+						this.nowNum--;
+						// 当前菜数量减少
+						price.pointNum--;
+						// 单元数量减少
+						unit.unitPointNum--;
 					},
 
 					/**

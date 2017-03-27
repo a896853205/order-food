@@ -39,10 +39,21 @@
                     <div class="right-info-div">
                         <h5 class="right-h5">{{item.cTitle}}</h5>
                         <span class="right-price-span">
-                        <span class="text-red text-bold">¥{{item.cPrice}}</span> /{{item.cUnit}}
-                    </span>
-                        <!--<button>+</button>-->
-                        <button class="right-add-button" v-on:click="addMeal(item, unitItem)"><i class="fa fa-plus"></i></button>
+                            <span class="text-red text-bold">¥{{item.cPrice}}</span> /{{item.cUnit}}
+                        </span>
+                        <div class="right-config">
+                            <div class="right-minus-button-group" v-if="item.pointNum != 0">
+                                <button class="right-minus-button" v-on:click="minusMeal(item, unitItem)">
+                                    <i class="fa fa-minus"></i>
+                                </button>
+                                <div class="right-show-num">
+                                    {{item.pointNum}}
+                                </div>
+                            </div>
+                            <button v-bind:class="[item.pointNum == 0 ? 'right-add-button' : 'right-add-button-active']" v-on:click="addMeal(item, unitItem)">
+                                <i class="fa fa-plus"></i>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>

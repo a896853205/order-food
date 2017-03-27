@@ -36,16 +36,54 @@
     bottom:0;
     left:0;
 }
-.right-main .right-add-button {
+.right-main .right-config {
     position: absolute;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+}
+.right-main .right-config .right-minus-button {
+    float: left;
+    border-radius: 12.5px 0 0 12.5px;
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(232,56,40);
+    border-right: 0;
+    background: #fff;
+    color: rgb(232,56,40);
+}
+.right-main .right-config .right-minus-button-group {
+    float: left;
+    overflow: hidden;
+    transition: .3s;
+}
+.right-main .right-config .right-minus-button-group .right-show-num {
+    float: left;
+    width: 25px;
+    height: 25px;
+    border: 1px solid rgb(232,56,40);
+    text-align: center;
+    line-height: 25px;
+    box-sizing: border-box;
+}
+.right-main .right-config .right-add-button {
     background: rgb(232,56,40);
     color:#fff;
     width: 25px;
     height: 25px;
     border-radius: 50%;
     font-weight: 800;
-    border: 0;
-    right: 0;
-    bottom: 0;
+    border: transparent;
+    transition: .5s;
+}
+.right-main .right-config .right-add-button-active {
+    background: rgb(232,56,40);
+    color:#fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 0 12.5px 12.5px 0;
+    font-weight: 800;
+    border: transparent;
+    transition: .5s;
 }
 /* ---主体部分-结束--- */
