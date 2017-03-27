@@ -15,6 +15,18 @@
 }
 .body-nav li {
     padding: 10px;
+    position: relative;
+}
+.span-unit-num {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    top: 3px;
+    right: 10px;
+    background: rgb(232,56,40);
+    border-radius: 50%;
+    color: #fff;
+    line-height: 18px;
 }
 /* 选中样式 */
 .body-nav .active {

@@ -32,6 +32,19 @@ module.exports = {
 					},
 					'postcss-loader'
 				]
+			},
+			{
+				test: /\.(png|jpg|gif|svg)$/i,
+				use: [
+					{
+						loader:'url-loader',
+						options: {
+							limit: 20000,
+							name: 'assets/[name].[ext]'
+						}
+					},
+					'image-webpack-loader'
+				]
 			}
 		]
 	},

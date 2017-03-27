@@ -9160,7 +9160,7 @@ module.exports = {
 					"cTitle": "泰国进口椰青",
 					"cPrice": 13.5,
 					"cUnit": "个",
-					"cImgUrl": "",
+					"cImgUrl": "1.jpg",
 					"isEmpty": false,
 					"isOffer": false,
 					"pointNum": 0
@@ -9169,7 +9169,7 @@ module.exports = {
 					"cTitle": "台湾珍珠芭乐",
 					"cPrice": 3.5,
 					"cUnit": "个",
-					"cImgUrl": "",
+					"cImgUrl": "2.jpg",
 					"isEmpty": false,
 					"isOffer": false,
 					"pointNum": 0
@@ -9178,7 +9178,7 @@ module.exports = {
 					"cTitle": "麒麟西瓜半个装",
 					"cPrice": 6.9,
 					"cUnit": "份",
-					"cImgUrl": "",
+					"cImgUrl": "3.jpg",
 					"isEmpty": false,
 					"isOffer": false,
 					"pointNum": 0
@@ -9187,7 +9187,7 @@ module.exports = {
 					"cTitle": "西班牙黄金橙",
 					"cPrice": 1.9,
 					"cUnit": "个",
-					"cImgUrl": "",
+					"cImgUrl": "4.jpg",
 					"isEmpty": false,
 					"isOffer": false,
 					"pointNum": 0
@@ -9196,7 +9196,7 @@ module.exports = {
 					"cTitle": "西洲蜜瓜半个装",
 					"cPrice": 4.9,
 					"cUnit": "份",
-					"cImgUrl": "",
+					"cImgUrl": "5.jpg",
 					"isEmpty": false,
 					"isOffer": false,
 					"pointNum": 0
@@ -9205,7 +9205,7 @@ module.exports = {
 					"cTitle": "金典纯牛奶",
 					"cPrice": 4.9,
 					"cUnit": "盒",
-					"cImgUrl": "",
+					"cImgUrl": "2.jpg",
 					"isEmpty": false,
 					"isOffer": false,
 					"pointNum": 0
@@ -9214,7 +9214,7 @@ module.exports = {
 					"cTitle": "伊利红枣酸奶",
 					"cPrice": 6.5,
 					"cUnit": "盒",
-					"cImgUrl": "",
+					"cImgUrl": "6.jpg",
 					"isEmpty": false,
 					"isOffer": false,
 					"pointNum": 0
@@ -9227,64 +9227,64 @@ module.exports = {
 			"unitPointNum": 0,
 			"rightData": [
 				{
-					"cTitle": "泰国进口椰青",
-					"cPrice": "13.5",
-					"cUnit": "个",
-					"cImgUrl": "",
-					"isEmpty": false,
-					"isOffer": false,
-					"pointNum": 0
-				},
-				{
-					"cTitle": "台湾珍珠芭乐",
-					"cPrice": "3.5",
-					"cUnit": "个",
-					"cImgUrl": "",
-					"isEmpty": false,
-					"isOffer": false,
-					"pointNum": 0
-				},
-				{
-					"cTitle": "麒麟西瓜半个装",
-					"cPrice": "6.9",
+					"cTitle": "番薯仔5根",
+					"cPrice": 2.5,
 					"cUnit": "份",
-					"cImgUrl": "",
+					"cImgUrl": "7.jpg",
 					"isEmpty": false,
 					"isOffer": false,
 					"pointNum": 0
 				},
 				{
-					"cTitle": "西班牙黄金橙",
-					"cPrice": "1.9",
-					"cUnit": "个",
-					"cImgUrl": "",
-					"isEmpty": false,
-					"isOffer": false,
-					"pointNum": 0
-				},
-				{
-					"cTitle": "西洲蜜瓜半个装",
-					"cPrice": "4.9",
+					"cTitle": "星球杯10个装",
+					"cPrice": 4.5,
 					"cUnit": "份",
-					"cImgUrl": "",
+					"cImgUrl": "8.jpg",
 					"isEmpty": false,
 					"isOffer": false,
 					"pointNum": 0
 				},
 				{
-					"cTitle": "金典纯牛奶",
-					"cPrice": "4.9",
-					"cUnit": "盒",
-					"cImgUrl": "",
+					"cTitle": "爆米花巧克力味",
+					"cPrice": 4.9,
+					"cUnit": "筐",
+					"cImgUrl": "9.jpg",
 					"isEmpty": false,
 					"isOffer": false,
 					"pointNum": 0
 				},
 				{
-					"cTitle": "伊利红枣酸奶",
-					"cPrice": "6.5",
-					"cUnit": "盒",
-					"cImgUrl": "",
+					"cTitle": "红番薯170g",
+					"cPrice": 3.9,
+					"cUnit": "份",
+					"cImgUrl": "10.jpg",
+					"isEmpty": false,
+					"isOffer": false,
+					"pointNum": 0
+				},
+				{
+					"cTitle": "冻干柠檬片",
+					"cPrice": 4.5,
+					"cUnit": "包",
+					"cImgUrl": "11.jpg",
+					"isEmpty": false,
+					"isOffer": false,
+					"pointNum": 0
+				},
+				{
+					"cTitle": "香酥脆猫耳朵5小包",
+					"cPrice": 2.9,
+					"cUnit": "份",
+					"cImgUrl": "12.jpg",
+					"isEmpty": false,
+					"isOffer": false,
+					"pointNum": 0
+				},
+				{
+					"cTitle": "单晶冰糖",
+					"cPrice": 3.2,
+					"cUnit": "包",
+					"cImgUrl": "1.jpg",
 					"isEmpty": false,
 					"isOffer": false,
 					"pointNum": 0
@@ -9426,7 +9426,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, "/**\r\n * @file 左边导航css\r\n * @author Qc<896853205@qq.com>\r\n */\r\n\r\n/* ---左边导航-开始--- */\r\n.body-nav {\r\n    float: left;\r\n    position: fixed;\r\n    width: 100px;\r\n    height: 100%;\r\n    background: rgb(242,242,242);\r\n    text-align: center;\r\n    padding-top: 20px;\r\n}\r\n.body-nav li {\r\n    padding: 10px;\r\n}\r\n/* 选中样式 */\r\n.body-nav .active {\r\n    background: #fff;\r\n    color: rgb(232,56,40);\r\n}\r\n/* ---左边导航-结束--- */", ""]);
+exports.push([module.i, "/**\r\n * @file 左边导航css\r\n * @author Qc<896853205@qq.com>\r\n */\r\n\r\n/* ---左边导航-开始--- */\r\n.body-nav {\r\n    float: left;\r\n    position: fixed;\r\n    width: 100px;\r\n    height: 100%;\r\n    background: rgb(242,242,242);\r\n    text-align: center;\r\n    padding-top: 20px;\r\n}\r\n.body-nav li {\r\n    padding: 10px;\r\n    position: relative;\r\n}\r\n.span-unit-num {\r\n    position: absolute;\r\n    width: 18px;\r\n    height: 18px;\r\n    top: 3px;\r\n    right: 10px;\r\n    background: rgb(232,56,40);\r\n    border-radius: 50%;\r\n    color: #fff;\r\n    line-height: 18px;\r\n}\r\n/* 选中样式 */\r\n.body-nav .active {\r\n    background: #fff;\r\n    color: rgb(232,56,40);\r\n}\r\n/* ---左边导航-结束--- */", ""]);
 
 // exports
 
@@ -11558,9 +11558,10 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 					/**
       * 增加菜
       *
-      * @param {string} price 当前菜的价格
+      * @param {object} price 当前菜
+      * @param {object} unit 当前菜单
       */
-					addMeal: function addMeal(price) {
+					addMeal: function addMeal(price, unit) {
 						/**
        * 1位小数加和
        *
@@ -11573,8 +11574,24 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 							num2 *= 10;
 							return (num1 + num2) / 10;
 						}
-						this.nowPrice = pointAdd(this.nowPrice, window.parseFloat(price));
+						this.nowPrice = pointAdd(this.nowPrice, window.parseFloat(price.cPrice));
 						this.nowNum++;
+						unit.unitPointNum++;
+					},
+
+					/**
+      * 菜单选择
+      *
+      * @param {object} 点击的li标签所在对象
+      */
+					changUnit: function changUnit(liActive) {
+						this.allData.bodyData.forEach(function (item) {
+							item.isActive = false;
+						});
+						liActive.isActive = true;
+					},
+					getImgUrl: function getImgUrl(imgUrl, dom) {
+						dom.src = './assets/' + imgUrl.cImgUrl;
 					}
 				}
 			});

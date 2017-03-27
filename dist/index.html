@@ -25,21 +25,24 @@
             <!-- 左边菜单-开始 -->
             <nav class="body-nav">
                 <ul>
-                    <li v-for="navData in allData.bodyData" v-bind:class="{ active: navData.isActive }">{{navData.leftData}}</li>
+                    <li v-for="navData in allData.bodyData" v-bind:class="{ active: navData.isActive }" v-on:click="changUnit(navData)">
+                        {{navData.leftData}}
+                        <span v-if="navData.unitPointNum!=0" class="span-unit-num">{{navData.unitPointNum}}</span>
+                    </li>
                 </ul>
             </nav>
             <!-- 左边菜单-结束 -->
             <!-- 右边具体-开始 -->
-            <div class="body-right-div" v-for="unitItem in allData.bodyData" v-bind:class="{ hidden: unitItem.isActive }">
+            <div class="body-right-div" v-for="unitItem in allData.bodyData" v-bind:class="{ hidden: !unitItem.isActive }">
                 <div class="right-main" v-for="item in unitItem.rightData">
-                    <img src="" alt="">
+                    <img v-bind:src="'./assets/' + item.cImgUrl" alt="">
                     <div class="right-info-div">
                         <h5 class="right-h5">{{item.cTitle}}</h5>
                         <span class="right-price-span">
                         <span class="text-red text-bold">¥{{item.cPrice}}</span> /{{item.cUnit}}
                     </span>
                         <!--<button>+</button>-->
-                        <button class="right-add-button" v-on:click="addMeal(item.cPrice)"><i class="fa fa-plus"></i></button>
+                        <button class="right-add-button" v-on:click="addMeal(item, unitItem)"><i class="fa fa-plus"></i></button>
                     </div>
                 </div>
             </div>

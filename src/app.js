@@ -35,9 +35,10 @@ import mainData from './data/main.json';
 		            /**
 		             * 增加菜
 		             *
-		             * @param {string} price 当前菜的价格
+		             * @param {object} price 当前菜
+		             * @param {object} unit 当前菜单
 		             */
-            		addMeal(price){
+            		addMeal(price, unit) {
 			            /**
 			             * 1位小数加和
 			             *
@@ -50,8 +51,23 @@ import mainData from './data/main.json';
                             num2*=10;
 				            return (num1+num2)/10;
 			            }
-            			this.nowPrice = pointAdd(this.nowPrice, window.parseFloat(price));
+            			this.nowPrice = pointAdd(this.nowPrice, window.parseFloat(price.cPrice));
                         this.nowNum++;
+			            unit.unitPointNum++;
+            		},
+		            /**
+		             * 菜单选择
+		             *
+		             * @param {object} 点击的li标签所在对象
+		             */
+		            changUnit(liActive) {
+		            	this.allData.bodyData.forEach(item => {
+                            item.isActive = false;
+			            });
+			            liActive.isActive = true;
+		            },
+		            getImgUrl(imgUrl, dom) {
+			            dom.src = `./assets/${imgUrl.cImgUrl}`;
 		            }
 	            }
             });
