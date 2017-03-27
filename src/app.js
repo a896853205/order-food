@@ -24,11 +24,10 @@ import mainData from './data/main.json';
 (function (){
     function App(){
         this.init = function (){
-	        let rightData = mainData.right;
             new Vue({
             	el: '#main',
 	            data: {
-		            allData: rightData,
+		            allData: mainData,
 		            nowPrice: 0,
 		            nowNum: 0
 	            },

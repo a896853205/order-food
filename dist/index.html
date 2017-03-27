@@ -11,7 +11,7 @@
         <!-- 头部滚动-开始 -->
         <section class="head-adv">
             <i class="fa fa-volume-up"></i>
-            <span>满10元送配送费</span>
+            <span>{{allData.headData.showContent}}</span>
             <i class="fa fa-close"></i>
         </section>
         <!-- 头部滚动-结束 -->
@@ -25,15 +25,13 @@
             <!-- 左边菜单-开始 -->
             <nav class="body-nav">
                 <ul>
-                    <li>店铺推荐</li>
-                    <li class="active">水果单品</li>
-                    <li>干果零食</li>
+                    <li v-for="navData in allData.bodyData" v-bind:class="{ active: navData.isActive }">{{navData.leftData}}</li>
                 </ul>
             </nav>
             <!-- 左边菜单-结束 -->
             <!-- 右边具体-开始 -->
-            <div class="body-right-div" id="rightMain">
-                <div class="right-main" v-for="item in allData">
+            <div class="body-right-div" v-for="unitItem in allData.bodyData" v-bind:class="{ hidden: unitItem.isActive }">
+                <div class="right-main" v-for="item in unitItem.rightData">
                     <img src="" alt="">
                     <div class="right-info-div">
                         <h5 class="right-h5">{{item.cTitle}}</h5>

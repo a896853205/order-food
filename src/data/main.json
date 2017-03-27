@@ -1,59 +1,129 @@
 {
-    "right": [{
-        "cTitle":"泰国进口椰青",
-        "cPrice":"13.5",
-        "cUnit":"个",
-        "cImgUrl":"",
-        "isEmpty":"false",
-        "isOffer":"false",
-        "pointNum":"0"
+    "headData": {
+        "isShow": true,
+        "showContent":"满10元送配送费"
+    },
+    "bodyData": [{
+        "isActive": true,
+        "leftData": "水果单品",
+        "unitPointNum": 0,
+        "rightData": [{
+            "cTitle":"泰国进口椰青",
+            "cPrice": 13.5,
+            "cUnit":"个",
+            "cImgUrl":"",
+            "isEmpty": false,
+            "isOffer": false,
+            "pointNum": 0
+        },{
+            "cTitle":"台湾珍珠芭乐",
+            "cPrice": 3.5,
+            "cUnit":"个",
+            "cImgUrl":"",
+            "isEmpty": false,
+            "isOffer": false,
+            "pointNum": 0
+        },{
+            "cTitle":"麒麟西瓜半个装",
+            "cPrice": 6.9,
+            "cUnit":"份",
+            "cImgUrl":"",
+            "isEmpty": false,
+            "isOffer": false,
+            "pointNum": 0
+        },{
+            "cTitle":"西班牙黄金橙",
+            "cPrice": 1.9,
+            "cUnit":"个",
+            "cImgUrl":"",
+            "isEmpty": false,
+            "isOffer": false,
+            "pointNum": 0
+        },{
+            "cTitle":"西洲蜜瓜半个装",
+            "cPrice": 4.9,
+            "cUnit":"份",
+            "cImgUrl":"",
+            "isEmpty": false,
+            "isOffer": false,
+            "pointNum": 0
+        },{
+            "cTitle":"金典纯牛奶",
+            "cPrice": 4.9,
+            "cUnit":"盒",
+            "cImgUrl":"",
+            "isEmpty": false,
+            "isOffer": false,
+            "pointNum": 0
+        },{
+            "cTitle":"伊利红枣酸奶",
+            "cPrice": 6.5,
+            "cUnit":"盒",
+            "cImgUrl":"",
+            "isEmpty": false,
+            "isOffer": false,
+            "pointNum":0
+        }]
     },{
-      "cTitle":"台湾珍珠芭乐",
-      "cPrice":"3.5",
-      "cUnit":"个",
-      "cImgUrl":"",
-      "isEmpty":"false",
-      "isOffer":"false",
-      "pointNum":"0"
-    },{
-      "cTitle":"麒麟西瓜半个装",
-      "cPrice":"6.9",
-      "cUnit":"份",
-      "cImgUrl":"",
-      "isEmpty":"false",
-      "isOffer":"false",
-      "pointNum":"0"
-    },{
-      "cTitle":"西班牙黄金橙",
-      "cPrice":"1.9",
-      "cUnit":"个",
-      "cImgUrl":"",
-      "isEmpty":"false",
-      "isOffer":"false",
-      "pointNum":"0"
-    },{
-      "cTitle":"西洲蜜瓜半个装",
-      "cPrice":"4.9",
-      "cUnit":"份",
-      "cImgUrl":"",
-      "isEmpty":"false",
-      "isOffer":"false",
-      "pointNum":"0"
-    },{
-      "cTitle":"金典纯牛奶",
-      "cPrice":"4.9",
-      "cUnit":"盒",
-      "cImgUrl":"",
-      "isEmpty":"false",
-      "isOffer":"false",
-      "pointNum":"0"
-    },{
-      "cTitle":"伊利红枣酸奶",
-      "cPrice":"6.5",
-      "cUnit":"盒",
-      "cImgUrl":"",
-      "isEmpty":"false",
-      "isOffer":"false",
-      "pointNum":"0"
+        "isActive":  false,
+        "leftData": "甘果零食",
+        "unitPointNum":  0,
+        "rightData": [{
+            "cTitle":"泰国进口椰青",
+            "cPrice":"13.5",
+            "cUnit":"个",
+            "cImgUrl":"",
+            "isEmpty": false,
+            "isOffer": false,
+            "pointNum": 0
+        },{
+            "cTitle":"台湾珍珠芭乐",
+            "cPrice":"3.5",
+            "cUnit":"个",
+            "cImgUrl":"",
+            "isEmpty": false,
+            "isOffer": false,
+            "pointNum": 0
+        },{
+            "cTitle":"麒麟西瓜半个装",
+            "cPrice":"6.9",
+            "cUnit":"份",
+            "cImgUrl":"",
+            "isEmpty": false,
+            "isOffer": false,
+            "pointNum": 0
+        },{
+            "cTitle":"西班牙黄金橙",
+            "cPrice":"1.9",
+            "cUnit":"个",
+            "cImgUrl":"",
+            "isEmpty": false,
+            "isOffer": false,
+            "pointNum": 0
+        },{
+            "cTitle":"西洲蜜瓜半个装",
+            "cPrice":"4.9",
+            "cUnit":"份",
+            "cImgUrl":"",
+            "isEmpty": false,
+            "isOffer": false,
+            "pointNum": 0
+        },{
+            "cTitle":"金典纯牛奶",
+            "cPrice":"4.9",
+            "cUnit":"盒",
+            "cImgUrl":"",
+            "isEmpty": false,
+            "isOffer": false,
+            "pointNum": 0
+        },{
+            "cTitle":"伊利红枣酸奶",
+            "cPrice":"6.5",
+            "cUnit":"盒",
+            "cImgUrl":"",
+            "isEmpty": false,
+            "isOffer": false,
+            "pointNum": 0
+        }]
     }]
 }
