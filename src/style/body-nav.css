@@ -27,7 +27,7 @@
     background: rgb(232,56,40);
     border-radius: 50%;
     color: #fff;
-    line-height: 18px;
+    padding:2px 0;
 }
 /* 选中样式 */
 .body-nav .active {
