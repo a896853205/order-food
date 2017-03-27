@@ -53,6 +53,11 @@ module.exports = {
 			filename: 'index.html',
 			template: 'index.html',
 			inject: 'body'
+		}),
+		new webpack.optimize.UglifyJsPlugin({
+			compress: {
+				warnings: false
+			}
 		})
 	]
 };
