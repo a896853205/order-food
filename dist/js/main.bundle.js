@@ -9471,7 +9471,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, "/**\r\n * @file 页面基础css\r\n * @author Qc<896853205@qq.com>\r\n */\r\n\r\n/* --- 页面基础-开始 --- */\r\n* {\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\nhtml,body {\r\n    font-family: \"Montserrat\", \"\\5FAE\\8F6F\\96C5\\9ED1\";\r\n    font-size: 14px;\r\n    position: relative;\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\n#main {\r\n    height: 100%;\r\n    width: 100%;\r\n}\r\n.body {\r\n    overflow: auto;\r\n    height: calc(100% - 171px);\r\n    position: relative;\r\n}\r\n/* --- 页面基础-结束 --- */\r\n\r\n/* ---工具样式--- */\r\n.text-red {\r\n    color: rgb(232,56,40);\r\n}\r\n.text-bold {\r\n    font-weight: bold;\r\n    font-size: 16px;\r\n}\r\n.hidden {\r\n    display: none;\r\n}", ""]);
+exports.push([module.i, "/**\r\n * @file 页面基础css\r\n * @author Qc<896853205@qq.com>\r\n */\r\n\r\n/* --- 页面基础-开始 --- */\r\n* {\r\n    margin: 0;\r\n    padding: 0;\r\n}\r\nhtml,body {\r\n    font-family: \"Montserrat\", \"\\5FAE\\8F6F\\96C5\\9ED1\";\r\n    font-size: 14px;\r\n    position: relative;\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\n#main {\r\n    height: 100%;\r\n    width: 100%;\r\n}\r\n.body {\r\n    overflow: auto;\r\n    height: calc(100% - 175px);\r\n    position: relative;\r\n}\r\n/* --- 页面基础-结束 --- */\r\n\r\n/* ---工具样式--- */\r\n.text-red {\r\n    color: rgb(232,56,40);\r\n}\r\n.text-bold {\r\n    font-weight: bold;\r\n    font-size: 16px;\r\n}\r\n.hidden {\r\n    display: none;\r\n}", ""]);
 
 // exports
 
@@ -9527,7 +9527,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, "/**\r\n * @file 头部滚动css\r\n * @author Qc<896853205@qq.com>\r\n */\r\n\r\n/* --- 头部滚动-开始 --- */\r\n.head-adv {\r\n    background: rgb(255,245,235);\r\n    position:relative;\r\n    padding:3px 5px;\r\n}\r\n.head-adv .fa-volume-up {\r\n    color: rgb(232,56,40);\r\n}\r\n.head-adv span {\r\n    font-size: 14px;\r\n}\r\n.head-adv .fa-close {\r\n    color: rgb(255,152,0);\r\n    position: absolute;\r\n    right:5px;\r\n}\r\n/* --- 头部滚动-结束 --- */", ""]);
+exports.push([module.i, "/**\r\n * @file 头部滚动css\r\n * @author Qc<896853205@qq.com>\r\n */\r\n\r\n/* --- 头部滚动-开始 --- */\r\n.head-adv {\r\n    background: rgb(255,245,235);\r\n    position:absolute;\r\n    top: 0;\r\n    width: 100%;\r\n    padding:3px 5px;\r\n    box-sizing: border-box;\r\n}\r\n.head-adv .fa-volume-up {\r\n    color: rgb(232,56,40);\r\n}\r\n.head-adv span {\r\n    font-size: 14px;\r\n}\r\n.head-adv .fa-close {\r\n    color: rgb(255,152,0);\r\n    position: absolute;\r\n    right:5px;\r\n}\r\n/* --- 头部滚动-结束 --- */", ""]);
 
 // exports
 
@@ -9541,7 +9541,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, "/**\r\n * @file 头部桌位css\r\n * @author Qc<896853205@qq.com>\r\n */\r\n\r\n/* ---头部桌位-开始--- */\r\n.header-info {\r\n    background-color: rgb(114,193,98);\r\n    padding:10px 20px;\r\n}\r\n.header-info h1 {\r\n    color: #fff;\r\n    font-size:16px;\r\n    font-weight: 400;\r\n    margin:0;\r\n}\r\n.header-info .head-right {\r\n    float:right;\r\n}\r\n.head-right span {\r\n    background:#fff;\r\n    padding: 3px 5px;\r\n    color: #222;\r\n    border-radius: 10px;\r\n}\r\n.head-right select {\r\n    background: #fff;\r\n    border: 0;\r\n    padding: 3px 5px;\r\n    color: #222;\r\n    border-radius: 10px;\r\n}\r\n/* ---头部桌位-结束--- */", ""]);
+exports.push([module.i, "/**\r\n * @file 头部桌位css\r\n * @author Qc<896853205@qq.com>\r\n */\r\n\r\n/* ---头部桌位-开始--- */\r\n.header-info {\r\n    background-color: rgb(114,193,98);\r\n    padding:32px 20px 10px;\r\n    overflow: hidden;\r\n}\r\n.header-info h1 {\r\n    color: #fff;\r\n    font-size:20px;\r\n    font-weight: 400;\r\n    margin:0;\r\n}\r\n.header-info .head-right {\r\n    float:right;\r\n}\r\n.head-right span {\r\n/*    background:#fff;*/\r\n    padding: 3px 5px;\r\n    color: #fff;\r\n    border-radius: 10px;\r\n}\r\n.head-right select {\r\n    background: #fff;\r\n    border: 0;\r\n    padding: 3px 5px;\r\n    color: #222;\r\n    border-radius: 10px;\r\n    -webkit-appearance: none;\r\n    width: auto;\r\n}\r\n/* ---头部桌位-结束--- */", ""]);
 
 // exports
 
@@ -11682,9 +11682,18 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 					/**
       * 单独菜,菜单显示
+      *
+      * @param {object} 当前的菜
       */
 					showMenu: function showMenu(item) {
 						item.nemuShow = !item.nemuShow;
+					},
+
+					/**
+      * 展示广告
+      */
+					showAdv: function showAdv() {
+						this.allData.headData.isShow = !this.allData.headData.isShow;
 					}
 				}
 			});

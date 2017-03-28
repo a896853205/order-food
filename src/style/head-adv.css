@@ -6,8 +6,11 @@
 /* --- 头部滚动-开始 --- */
 .head-adv {
     background: rgb(255,245,235);
-    position:relative;
+    position:absolute;
+    top: 0;
+    width: 100%;
     padding:3px 5px;
+    box-sizing: border-box;
 }
 .head-adv .fa-volume-up {
     color: rgb(232,56,40);

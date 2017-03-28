@@ -9,10 +9,10 @@
 <body>
     <div id="main">
         <!-- 头部滚动-开始 -->
-        <section class="head-adv">
+        <section class="head-adv" v-if="allData.headData.isShow">
             <i class="fa fa-volume-up"></i>
             <span>{{allData.headData.showContent}}</span>
-            <i class="fa fa-close"></i>
+            <i class="fa fa-close" v-on:click="showAdv"></i>
         </section>
         <!-- 头部滚动-结束 -->
         <!-- 头部桌位-开始 -->
@@ -20,7 +20,8 @@
             <div class="head-right">
                 <span>第一桌</span>
                 <select>
-                    <option selected>汉语</option>
+                    <option selected>选择语言</option>
+                    <option>汉语</option>
                     <option>English</option>
                 </select>
             </div>

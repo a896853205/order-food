@@ -97,9 +97,17 @@ import mainData from './data/main.json';
 		            },
 		            /**
 		             * 单独菜,菜单显示
+		             *
+		             * @param {object} 当前的菜
 		             */
 		            showMenu(item) {
 			            item.nemuShow = !item.nemuShow;
+		            },
+		            /**
+		             * 展示广告
+		             */
+		            showAdv() {
+		            	this.allData.headData.isShow = !this.allData.headData.isShow;
 		            }
 	            }
             });
