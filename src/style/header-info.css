@@ -14,4 +14,20 @@
     font-weight: 400;
     margin:0;
 }
+.header-info .head-right {
+    float:right;
+}
+.head-right span {
+    background:#fff;
+    padding: 3px 5px;
+    color: #222;
+    border-radius: 10px;
+}
+.head-right select {
+    background: #fff;
+    border: 0;
+    padding: 3px 5px;
+    color: #222;
+    border-radius: 10px;
+}
 /* ---头部桌位-结束--- */

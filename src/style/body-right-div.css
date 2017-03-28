@@ -6,7 +6,7 @@
 /* ---主体部分-开始--- */
 .body-right-div {
     width: calc(100% - 100px);
-    margin-left: 100px;
+    margin-left: 90px;
     float: left;
 }
 .body-right-div .right-main {
@@ -147,11 +147,23 @@
     border: 0;
     font-size: 18px;
 }
+.right-nemu-button i {
+    transition: .5s;
+}
 .right-nemu {
     margin-top: 10px;
     overflow: hidden;
 }
+.nemu-outer-div {
+    overflow: hidden;
+}
 .nemu-inner-div {
     float: left;
+    margin-right: 10px;
+}
+.right-nemu-info {
+    margin-top: 20px;
+    border-top: 1px solid #ddd;
+    padding-top:5px;
 }
 /* ---主体部分-结束--- */

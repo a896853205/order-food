@@ -47,7 +47,8 @@
             "nemuData": [
                 {
                     "optionName": ["咸口","甜口"],
-                    "optionModel": ""
+                    "optionModel": "",
+                    "mealInfo": ",白萝卜含有大量的维生素和膳食纤维,所含的木质素具有抗癌的功效."
                 }
             ]
         },{

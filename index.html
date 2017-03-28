@@ -17,6 +17,13 @@
         <!-- 头部滚动-结束 -->
         <!-- 头部桌位-开始 -->
         <header class="header-info">
+            <div class="head-right">
+                <span>第一桌</span>
+                <select>
+                    <option selected>汉语</option>
+                    <option>English</option>
+                </select>
+            </div>
             <h1>馋嘴肉蟹煲欢迎您</h1>
         </header>
         <!-- 头部桌位-结束 -->
@@ -34,7 +41,7 @@
             <!-- 左边菜单-结束 -->
             <!-- 右边具体-开始 -->
             <div class="body-right-div" v-for="unitItem in allData.bodyData" v-bind:class="{ hidden: !unitItem.isActive }">
-                <div class="right-main" v-for="item in unitItem.rightData" v-bind:style="{'max-height' : item.nemuShow ? '120px' : '60px'}">
+                <div class="right-main" v-for="item in unitItem.rightData" v-bind:style="{'max-height' : item.nemuShow ? '150px' : '60px'}">
                     <div class="right-main-show">
                         <div class="right-span-tag" v-if="item.isOffer">
                             <span>
@@ -53,7 +60,7 @@
                             </span>
                             <div class="right-nemu-button" v-if="item.nemuData.length != 0">
                                 <button v-on:click="showMenu(item)">
-                                    <i class="fa fa fa-angle-down"></i>
+                                    <i class="fa fa-angle-double-down" v-bind:style="{'transform' : item.nemuShow ? 'rotate(180deg)': ''}"></i>
                                 </button>
                             </div>
                             <div class="right-config">
@@ -72,9 +79,13 @@
                         </div>
                     </div>
                     <div class="right-nemu">
-                        <div v-for="nemuItem in item.nemuData">
+                        <div v-for="nemuItem in item.nemuData" class="nemu-outer-div">
                             <div v-for="nemuName in nemuItem.optionName" class="nemu-inner-div">
-                                <label>{{nemuName}}</label><input v-model="nemuItem.optionModel" v-bind:value="nemuName" type="radio">
+                                <label>{{nemuName}}</label>
+                                <input v-model="nemuItem.optionModel" v-bind:value="nemuName" type="radio">
+                            </div>
+                            <div class="right-nemu-info">
+                                菜品简介: {{nemuItem.mealInfo}}
                             </div>
                         </div>
                     </div>
@@ -105,8 +116,8 @@
                         <p>菜排</p>
                     </li>
                     <li class="foot-active">
-                        <i class="fa fa-eye"></i>
-                        <p>已选择</p>
+                        <i class="fa fa-wpforms"></i>
+                        <p>已点菜</p>
                     </li>
                     <li>
                         <i class="fa fa-bell-o"></i>
