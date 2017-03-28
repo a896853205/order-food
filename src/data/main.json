@@ -12,16 +12,18 @@
             "cPrice": 13.5,
             "cUnit":"个",
             "cImgUrl": "1.jpg",
-            "isEmpty": false,
+            "isEmpty": true,
             "isOffer": false,
+            "offerData": "特价",
             "pointNum": 0
         },{
             "cTitle":"台湾珍珠芭乐",
             "cPrice": 3.5,
             "cUnit":"个",
             "cImgUrl":"2.jpg",
-            "isEmpty": false,
+            "isEmpty": true,
             "isOffer": false,
+            "offerData": "特价",
             "pointNum": 0
         },{
             "cTitle":"麒麟西瓜半个装",
@@ -29,7 +31,8 @@
             "cUnit":"份",
             "cImgUrl":"3.jpg",
             "isEmpty": false,
-            "isOffer": false,
+            "isOffer": true,
+            "offerData": "特价",
             "pointNum": 0
         },{
             "cTitle":"西班牙黄金橙",
@@ -37,7 +40,8 @@
             "cUnit":"个",
             "cImgUrl":"4.jpg",
             "isEmpty": false,
-            "isOffer": false,
+            "isOffer": true,
+            "offerData": "限时打折",
             "pointNum": 0
         },{
             "cTitle":"西洲蜜瓜半个装",
@@ -46,6 +50,7 @@
             "cImgUrl":"5.jpg",
             "isEmpty": false,
             "isOffer": false,
+            "offerData": "特价",
             "pointNum": 0
         },{
             "cTitle":"金典纯牛奶",
@@ -54,6 +59,7 @@
             "cImgUrl": "2.jpg",
             "isEmpty": false,
             "isOffer": false,
+            "offerData": "特价",
             "pointNum": 0
         },{
             "cTitle":"伊利红枣酸奶",
@@ -62,6 +68,7 @@
             "cImgUrl":"6.jpg",
             "isEmpty": false,
             "isOffer": false,
+            "offerData": "特价",
             "pointNum":0
         }]
     },{
@@ -75,6 +82,7 @@
             "cImgUrl": "7.jpg",
             "isEmpty": false,
             "isOffer": false,
+            "offerData": "特价",
             "pointNum": 0
         },{
             "cTitle":"星球杯10个装",
@@ -83,6 +91,7 @@
             "cImgUrl": "8.jpg",
             "isEmpty": false,
             "isOffer": false,
+            "offerData": "特价",
             "pointNum": 0
         },{
             "cTitle":"爆米花巧克力味",
@@ -91,6 +100,7 @@
             "cImgUrl": "9.jpg",
             "isEmpty": false,
             "isOffer": false,
+            "offerData": "特价",
             "pointNum": 0
         },{
             "cTitle": "红番薯170g",
@@ -99,6 +109,7 @@
             "cImgUrl": "10.jpg",
             "isEmpty": false,
             "isOffer": false,
+            "offerData": "特价",
             "pointNum": 0
         },{
             "cTitle": "冻干柠檬片",
@@ -107,6 +118,7 @@
             "cImgUrl": "11.jpg",
             "isEmpty": false,
             "isOffer": false,
+            "offerData": "特价",
             "pointNum": 0
         },{
             "cTitle": "香酥脆猫耳朵5小包",
@@ -115,6 +127,7 @@
             "cImgUrl": "12.jpg",
             "isEmpty": false,
             "isOffer": false,
+            "offerData": "特价",
             "pointNum": 0
         },{
             "cTitle": "单晶冰糖",
@@ -123,6 +136,7 @@
             "cImgUrl": "1.jpg",
             "isEmpty": false,
             "isOffer": false,
+            "offerData": "特价",
             "pointNum": 0
         }]
     }]

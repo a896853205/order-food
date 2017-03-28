@@ -35,6 +35,12 @@
             <!-- 右边具体-开始 -->
             <div class="body-right-div" v-for="unitItem in allData.bodyData" v-bind:class="{ hidden: !unitItem.isActive }">
                 <div class="right-main" v-for="item in unitItem.rightData">
+                    <div class="right-span-tag" v-if="item.isOffer">
+                        <span>
+                            {{item.offerData}}
+                        </span>
+                        <i class="triangle-topright"></i>
+                    </div>
                     <img v-bind:src="'./assets/' + item.cImgUrl" alt="">
                     <div class="right-info-div">
                         <h5 class="right-h5">{{item.cTitle}}</h5>
@@ -55,6 +61,11 @@
                             </button>
                         </div>
                     </div>
+                    <!-- 买完了-开始 -->
+                    <div class="sell-out-div" v-if="item.isEmpty">
+                        <span>卖完了</span>
+                    </div>
+                    <!-- 买完了-结束 -->
                 </div>
             </div>
             <!-- 右边具体-结束 -->

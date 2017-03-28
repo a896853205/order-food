@@ -9161,8 +9161,9 @@ module.exports = {
 					"cPrice": 13.5,
 					"cUnit": "个",
 					"cImgUrl": "1.jpg",
-					"isEmpty": false,
+					"isEmpty": true,
 					"isOffer": false,
+					"offerData": "特价",
 					"pointNum": 0
 				},
 				{
@@ -9170,8 +9171,9 @@ module.exports = {
 					"cPrice": 3.5,
 					"cUnit": "个",
 					"cImgUrl": "2.jpg",
-					"isEmpty": false,
+					"isEmpty": true,
 					"isOffer": false,
+					"offerData": "特价",
 					"pointNum": 0
 				},
 				{
@@ -9180,7 +9182,8 @@ module.exports = {
 					"cUnit": "份",
 					"cImgUrl": "3.jpg",
 					"isEmpty": false,
-					"isOffer": false,
+					"isOffer": true,
+					"offerData": "特价",
 					"pointNum": 0
 				},
 				{
@@ -9189,7 +9192,8 @@ module.exports = {
 					"cUnit": "个",
 					"cImgUrl": "4.jpg",
 					"isEmpty": false,
-					"isOffer": false,
+					"isOffer": true,
+					"offerData": "限时打折",
 					"pointNum": 0
 				},
 				{
@@ -9199,6 +9203,7 @@ module.exports = {
 					"cImgUrl": "5.jpg",
 					"isEmpty": false,
 					"isOffer": false,
+					"offerData": "特价",
 					"pointNum": 0
 				},
 				{
@@ -9208,6 +9213,7 @@ module.exports = {
 					"cImgUrl": "2.jpg",
 					"isEmpty": false,
 					"isOffer": false,
+					"offerData": "特价",
 					"pointNum": 0
 				},
 				{
@@ -9217,6 +9223,7 @@ module.exports = {
 					"cImgUrl": "6.jpg",
 					"isEmpty": false,
 					"isOffer": false,
+					"offerData": "特价",
 					"pointNum": 0
 				}
 			]
@@ -9233,6 +9240,7 @@ module.exports = {
 					"cImgUrl": "7.jpg",
 					"isEmpty": false,
 					"isOffer": false,
+					"offerData": "特价",
 					"pointNum": 0
 				},
 				{
@@ -9242,6 +9250,7 @@ module.exports = {
 					"cImgUrl": "8.jpg",
 					"isEmpty": false,
 					"isOffer": false,
+					"offerData": "特价",
 					"pointNum": 0
 				},
 				{
@@ -9251,6 +9260,7 @@ module.exports = {
 					"cImgUrl": "9.jpg",
 					"isEmpty": false,
 					"isOffer": false,
+					"offerData": "特价",
 					"pointNum": 0
 				},
 				{
@@ -9260,6 +9270,7 @@ module.exports = {
 					"cImgUrl": "10.jpg",
 					"isEmpty": false,
 					"isOffer": false,
+					"offerData": "特价",
 					"pointNum": 0
 				},
 				{
@@ -9269,6 +9280,7 @@ module.exports = {
 					"cImgUrl": "11.jpg",
 					"isEmpty": false,
 					"isOffer": false,
+					"offerData": "特价",
 					"pointNum": 0
 				},
 				{
@@ -9278,6 +9290,7 @@ module.exports = {
 					"cImgUrl": "12.jpg",
 					"isEmpty": false,
 					"isOffer": false,
+					"offerData": "特价",
 					"pointNum": 0
 				},
 				{
@@ -9287,6 +9300,7 @@ module.exports = {
 					"cImgUrl": "1.jpg",
 					"isEmpty": false,
 					"isOffer": false,
+					"offerData": "特价",
 					"pointNum": 0
 				}
 			]
@@ -9426,7 +9440,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, "/**\r\n * @file 左边导航css\r\n * @author Qc<896853205@qq.com>\r\n */\r\n\r\n/* ---左边导航-开始--- */\r\n.body-nav {\r\n    float: left;\r\n    position: fixed;\r\n    width: 100px;\r\n    height: 100%;\r\n    background: rgb(242,242,242);\r\n    text-align: center;\r\n    padding-top: 20px;\r\n}\r\n.body-nav li {\r\n    padding: 10px;\r\n    position: relative;\r\n}\r\n.span-unit-num {\r\n    position: absolute;\r\n    width: 18px;\r\n    height: 18px;\r\n    top: 3px;\r\n    right: 10px;\r\n    background: rgb(232,56,40);\r\n    border-radius: 50%;\r\n    color: #fff;\r\n    line-height: 18px;\r\n}\r\n/* 选中样式 */\r\n.body-nav .active {\r\n    background: #fff;\r\n    color: rgb(232,56,40);\r\n}\r\n/* ---左边导航-结束--- */", ""]);
+exports.push([module.i, "/**\r\n * @file 左边导航css\r\n * @author Qc<896853205@qq.com>\r\n */\r\n\r\n/* ---左边导航-开始--- */\r\n.body-nav {\r\n    float: left;\r\n    position: fixed;\r\n    width: 100px;\r\n    height: 100%;\r\n    background: rgb(242,242,242);\r\n    text-align: center;\r\n    padding-top: 20px;\r\n}\r\n.body-nav li {\r\n    padding: 10px;\r\n    position: relative;\r\n}\r\n.span-unit-num {\r\n    position: absolute;\r\n    display: block;\r\n    width: 18px;\r\n    height: 18px;\r\n    top: 3px;\r\n    right: 10px;\r\n    background: rgb(232,56,40);\r\n    border-radius: 50%;\r\n    color: #fff;\r\n    padding:2px 0;\r\n}\r\n/* 选中样式 */\r\n.body-nav .active {\r\n    background: #fff;\r\n    color: rgb(232,56,40);\r\n}\r\n/* ---左边导航-结束--- */", ""]);
 
 // exports
 
@@ -9440,7 +9454,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, "/**\r\n * @file 右侧主体css\r\n * @author Qc<896853205@qq.com>\r\n */\r\n\r\n/* ---主体部分-开始--- */\r\n.body-right-div {\r\n    width: calc(100% - 100px);\r\n    margin-left: 100px;\r\n    float: left;\r\n}\r\n.body-right-div .right-main {\r\n    padding: 10px;\r\n    overflow: hidden;\r\n    border-bottom: 2px solid rgb(242,242,242);\r\n}\r\n.right-main img {\r\n    width: 60px;\r\n    height: 60px;\r\n    background: #ddd;\r\n    float: left;\r\n    margin-right:10px;\r\n}\r\n.right-main .right-info-div {\r\n    float: left;\r\n    position: relative;\r\n    height: 60px;\r\n    width: calc(100% - 70px);\r\n}\r\n.right-main .right-h5 {\r\n    font-weight:400;\r\n    font-size:16px;\r\n}\r\n.right-main .right-price-span {\r\n    position:absolute;\r\n    bottom:0;\r\n    left:0;\r\n}\r\n.right-main .right-config {\r\n    position: absolute;\r\n    right: 0;\r\n    bottom: 0;\r\n    overflow: hidden;\r\n}\r\n.right-main .right-config .right-minus-button {\r\n    float: left;\r\n    border-radius: 12.5px 0 0 12.5px;\r\n    width: 25px;\r\n    height: 25px;\r\n    border: 1px solid rgb(232,56,40);\r\n    border-right: 0;\r\n    background: #fff;\r\n    color: rgb(232,56,40);\r\n}\r\n.right-main .right-config .right-minus-button-group {\r\n    float: left;\r\n    overflow: hidden;\r\n    -webkit-transition: .3s;\r\n    transition: .3s;\r\n}\r\n.right-main .right-config .right-minus-button-group .right-show-num {\r\n    float: left;\r\n    width: 25px;\r\n    height: 25px;\r\n    border: 1px solid rgb(232,56,40);\r\n    text-align: center;\r\n    line-height: 25px;\r\n    box-sizing: border-box;\r\n}\r\n.right-main .right-config .right-add-button {\r\n    background: rgb(232,56,40);\r\n    color:#fff;\r\n    width: 25px;\r\n    height: 25px;\r\n    border-radius: 50%;\r\n    font-weight: 800;\r\n    border: transparent;\r\n    -webkit-transition: .5s;\r\n    transition: .5s;\r\n}\r\n.right-main .right-config .right-add-button-active {\r\n    background: rgb(232,56,40);\r\n    color:#fff;\r\n    width: 25px;\r\n    height: 25px;\r\n    border-radius: 0 12.5px 12.5px 0;\r\n    font-weight: 800;\r\n    border: transparent;\r\n    -webkit-transition: .5s;\r\n    transition: .5s;\r\n}\r\n/* ---主体部分-结束--- */", ""]);
+exports.push([module.i, "/**\r\n * @file 右侧主体css\r\n * @author Qc<896853205@qq.com>\r\n */\r\n\r\n/* ---主体部分-开始--- */\r\n.body-right-div {\r\n    width: calc(100% - 100px);\r\n    margin-left: 100px;\r\n    float: left;\r\n}\r\n.body-right-div .right-main {\r\n    padding: 10px;\r\n    overflow: hidden;\r\n    border-bottom: 2px solid rgb(242,242,242);\r\n    position: relative;\r\n}\r\n.right-main img {\r\n    width: 60px;\r\n    height: 60px;\r\n    background: #ddd;\r\n    float: left;\r\n    margin-right:10px;\r\n}\r\n.right-main .right-info-div {\r\n    float: left;\r\n    position: relative;\r\n    height: 60px;\r\n    width: calc(100% - 70px);\r\n}\r\n.right-main .right-h5 {\r\n    font-weight:400;\r\n    font-size:16px;\r\n}\r\n.right-main .right-price-span {\r\n    position:absolute;\r\n    bottom:0;\r\n    left:0;\r\n}\r\n.right-main .right-config {\r\n    position: absolute;\r\n    right: 0;\r\n    bottom: 0;\r\n    overflow: hidden;\r\n}\r\n.right-main .right-config .right-minus-button {\r\n    float: left;\r\n    border-radius: 12.5px 0 0 12.5px;\r\n    width: 25px;\r\n    height: 25px;\r\n    border: 1px solid rgb(232,56,40);\r\n    border-right: 0;\r\n    background: #fff;\r\n    color: rgb(232,56,40);\r\n}\r\n.right-main .right-config .right-minus-button-group {\r\n    float: left;\r\n    overflow: hidden;\r\n    -webkit-transition: .3s;\r\n    transition: .3s;\r\n}\r\n.right-main .right-config .right-minus-button-group .right-show-num {\r\n    float: left;\r\n    width: 25px;\r\n    height: 25px;\r\n    border: 1px solid rgb(232,56,40);\r\n    text-align: center;\r\n    line-height: 25px;\r\n    box-sizing: border-box;\r\n}\r\n.right-main .right-config .right-add-button {\r\n    background: rgb(232,56,40);\r\n    color:#fff;\r\n    width: 25px;\r\n    height: 25px;\r\n    border-radius: 50%;\r\n    font-weight: 800;\r\n    border: transparent;\r\n    -webkit-transition: .5s;\r\n    transition: .5s;\r\n}\r\n.right-main .right-config .right-add-button-active {\r\n    background: rgb(232,56,40);\r\n    color:#fff;\r\n    width: 25px;\r\n    height: 25px;\r\n    border-radius: 0 12.5px 12.5px 0;\r\n    font-weight: 800;\r\n    border: transparent;\r\n    -webkit-transition: .5s;\r\n    transition: .5s;\r\n}\r\n.right-main .right-span-tag {\r\n    position: absolute;\r\n    top: 5px;\r\n    left: 5px;\r\n}\r\n.right-main .right-span-tag span {\r\n    display: block;\r\n    width: 60px;\r\n    color: #fff;\r\n    background: rgb(255,152,0);\r\n    text-align: center;\r\n    font-size: 14px;\r\n    padding: 2px 0;\r\n    box-shadow: 0 0 4px #666;\r\n}\r\n.triangle-topright {\r\n    display: block;\r\n    width: 0;\r\n    height: 0;\r\n    border-top: 5px solid rgb(174,120,60);\r\n    border-left: 5px solid transparent;\r\n}\r\n.sell-out-div {\r\n    position: absolute;\r\n    width: 100%;\r\n    height: 100%;\r\n    z-index: 3;\r\n    background: rgba(255,255,255,.6);\r\n}\r\n.sell-out-div span {\r\n    position: absolute;\r\n    left: 30%;\r\n    top: 10px;\r\n    -webkit-transform: rotate(-22deg);\r\n            transform: rotate(-22deg);\r\n    background: #fff;\r\n    border: 3px solid rgb(252,132,120);\r\n    border-radius: 3px;\r\n    color: rgb(252,132,120);\r\n    font-size: 25px;\r\n    padding: 3px 8px;\r\n}\r\n/* ---主体部分-结束--- */", ""]);
 
 // exports
 
