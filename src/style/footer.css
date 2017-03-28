@@ -21,6 +21,7 @@
     font-size: 14px;
 }
 .foot-calculate .over-button {
+    display: block;
     border: 0;
     float: right;
     background: #fff;

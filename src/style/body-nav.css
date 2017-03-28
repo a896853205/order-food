@@ -28,6 +28,8 @@
     border-radius: 50%;
     color: #fff;
     padding:2px 0;
+    font-size: 14px;
+    box-sizing: border-box;
 }
 /* 选中样式 */
 .body-nav .active {
