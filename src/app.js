@@ -21,6 +21,8 @@ import Vue from './script/vue.js';
 // 引入暂时数据
 import mainData from './data/main.json';
 
+let TWEEN = require('tween.js');
+
 (function (){
     function App(){
         this.init = function (){
@@ -29,7 +31,8 @@ import mainData from './data/main.json';
 	            data: {
 		            allData: mainData,
 		            nowPrice: 0,
-		            nowNum: 0
+		            nowNum: 0,
+		            animatedNumber: 0
 	            },
 	            methods:{
 		            /**
@@ -109,7 +112,25 @@ import mainData from './data/main.json';
 		            showAdv() {
 		            	this.allData.headData.isShow = !this.allData.headData.isShow;
 		            }
+	            },
+	            watch: {
+		            nowPrice : function(newValue, oldValue) {
+			            let vm = this;
+			            function animate (time) {
+				            requestAnimationFrame(animate);
+				            TWEEN.update(time);
+			            }
+			            new TWEEN.Tween({ tweeningNumber: oldValue })
+				            .easing(TWEEN.Easing.Quadratic.Out)
+				            .to({ tweeningNumber: newValue }, 500)
+				            .onUpdate(function () {
+					            vm.animatedNumber = this.tweeningNumber.toFixed(1)
+				            })
+				            .start();
+			            animate();
+		            }
 	            }
+
             });
         }
     }
