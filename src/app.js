@@ -95,8 +95,11 @@ import mainData from './data/main.json';
 			            });
 			            liActive.isActive = true;
 		            },
-		            getImgUrl(imgUrl, dom) {
-			            dom.src = `./assets/${imgUrl.cImgUrl}`;
+		            /**
+		             * 单独菜,菜单显示
+		             */
+		            showMenu(item) {
+			            item.nemuShow = !item.nemuShow;
 		            }
 	            }
             });

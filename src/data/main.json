@@ -8,14 +8,21 @@
         "leftData": "水果单品",
         "unitPointNum": 0,
         "rightData": [{
-            "cTitle":"泰国进口椰青",
+            "cTitle": "泰国进口椰青",
             "cPrice": 13.5,
-            "cUnit":"个",
+            "cUnit": "个",
             "cImgUrl": "1.jpg",
             "isEmpty": true,
             "isOffer": false,
             "offerData": "特价",
-            "pointNum": 0
+            "pointNum": 0,
+            "nemuShow": false,
+            "nemuData": [
+                {
+                    "optionName": ["咸口","甜口"],
+                    "optionModel": ""
+                }
+            ]
         },{
             "cTitle":"台湾珍珠芭乐",
             "cPrice": 3.5,
@@ -24,7 +31,9 @@
             "isEmpty": true,
             "isOffer": false,
             "offerData": "特价",
-            "pointNum": 0
+            "pointNum": 0,
+            "nemuShow": false,
+            "nemuData": []
         },{
             "cTitle":"麒麟西瓜半个装",
             "cPrice": 6.9,
@@ -33,7 +42,14 @@
             "isEmpty": false,
             "isOffer": true,
             "offerData": "特价",
-            "pointNum": 0
+            "pointNum": 0,
+            "nemuShow": false,
+            "nemuData": [
+                {
+                    "optionName": ["咸口","甜口"],
+                    "optionModel": ""
+                }
+            ]
         },{
             "cTitle":"西班牙黄金橙",
             "cPrice": 1.9,
@@ -42,7 +58,9 @@
             "isEmpty": false,
             "isOffer": true,
             "offerData": "限时打折",
-            "pointNum": 0
+            "pointNum": 0,
+            "nemuShow": false,
+            "nemuData": []
         },{
             "cTitle":"西洲蜜瓜半个装",
             "cPrice": 4.9,
@@ -51,7 +69,9 @@
             "isEmpty": false,
             "isOffer": false,
             "offerData": "特价",
-            "pointNum": 0
+            "pointNum": 0,
+            "nemuShow": false,
+            "nemuData": []
         },{
             "cTitle":"金典纯牛奶",
             "cPrice": 4.9,
@@ -60,7 +80,9 @@
             "isEmpty": false,
             "isOffer": false,
             "offerData": "特价",
-            "pointNum": 0
+            "pointNum": 0,
+            "nemuShow": false,
+            "nemuData": []
         },{
             "cTitle":"伊利红枣酸奶",
             "cPrice": 6.5,
@@ -69,7 +91,9 @@
             "isEmpty": false,
             "isOffer": false,
             "offerData": "特价",
-            "pointNum":0
+            "pointNum":0,
+            "nemuShow": false,
+            "nemuData": []
         }]
     },{
         "isActive":  false,
@@ -83,7 +107,9 @@
             "isEmpty": false,
             "isOffer": false,
             "offerData": "特价",
-            "pointNum": 0
+            "pointNum": 0,
+            "nemuShow": false,
+            "nemuData": []
         },{
             "cTitle":"星球杯10个装",
             "cPrice": 4.5,
@@ -92,7 +118,9 @@
             "isEmpty": false,
             "isOffer": false,
             "offerData": "特价",
-            "pointNum": 0
+            "pointNum": 0,
+            "nemuShow": false,
+            "nemuData": []
         },{
             "cTitle":"爆米花巧克力味",
             "cPrice": 4.9,
@@ -101,7 +129,9 @@
             "isEmpty": false,
             "isOffer": false,
             "offerData": "特价",
-            "pointNum": 0
+            "pointNum": 0,
+            "nemuShow": false,
+            "nemuData": []
         },{
             "cTitle": "红番薯170g",
             "cPrice": 3.9,
@@ -110,7 +140,9 @@
             "isEmpty": false,
             "isOffer": false,
             "offerData": "特价",
-            "pointNum": 0
+            "pointNum": 0,
+            "nemuShow": false,
+            "nemuData": []
         },{
             "cTitle": "冻干柠檬片",
             "cPrice": 4.5,
@@ -119,7 +151,9 @@
             "isEmpty": false,
             "isOffer": false,
             "offerData": "特价",
-            "pointNum": 0
+            "pointNum": 0,
+            "nemuShow": false,
+            "nemuData": []
         },{
             "cTitle": "香酥脆猫耳朵5小包",
             "cPrice": 2.9,
@@ -128,7 +162,9 @@
             "isEmpty": false,
             "isOffer": false,
             "offerData": "特价",
-            "pointNum": 0
+            "pointNum": 0,
+            "nemuShow": false,
+            "nemuData": []
         },{
             "cTitle": "单晶冰糖",
             "cPrice": 3.2,
@@ -137,7 +173,9 @@
             "isEmpty": false,
             "isOffer": false,
             "offerData": "特价",
-            "pointNum": 0
+            "pointNum": 0,
+            "nemuShow": false,
+            "nemuData": []
         }]
     }]
 }

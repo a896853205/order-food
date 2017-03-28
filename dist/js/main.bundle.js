@@ -9164,7 +9164,17 @@ module.exports = {
 					"isEmpty": true,
 					"isOffer": false,
 					"offerData": "特价",
-					"pointNum": 0
+					"pointNum": 0,
+					"nemuShow": false,
+					"nemuData": [
+						{
+							"optionName": [
+								"咸口",
+								"甜口"
+							],
+							"optionModel": ""
+						}
+					]
 				},
 				{
 					"cTitle": "台湾珍珠芭乐",
@@ -9174,7 +9184,9 @@ module.exports = {
 					"isEmpty": true,
 					"isOffer": false,
 					"offerData": "特价",
-					"pointNum": 0
+					"pointNum": 0,
+					"nemuShow": false,
+					"nemuData": []
 				},
 				{
 					"cTitle": "麒麟西瓜半个装",
@@ -9184,7 +9196,17 @@ module.exports = {
 					"isEmpty": false,
 					"isOffer": true,
 					"offerData": "特价",
-					"pointNum": 0
+					"pointNum": 0,
+					"nemuShow": false,
+					"nemuData": [
+						{
+							"optionName": [
+								"咸口",
+								"甜口"
+							],
+							"optionModel": ""
+						}
+					]
 				},
 				{
 					"cTitle": "西班牙黄金橙",
@@ -9194,7 +9216,9 @@ module.exports = {
 					"isEmpty": false,
 					"isOffer": true,
 					"offerData": "限时打折",
-					"pointNum": 0
+					"pointNum": 0,
+					"nemuShow": false,
+					"nemuData": []
 				},
 				{
 					"cTitle": "西洲蜜瓜半个装",
@@ -9204,7 +9228,9 @@ module.exports = {
 					"isEmpty": false,
 					"isOffer": false,
 					"offerData": "特价",
-					"pointNum": 0
+					"pointNum": 0,
+					"nemuShow": false,
+					"nemuData": []
 				},
 				{
 					"cTitle": "金典纯牛奶",
@@ -9214,7 +9240,9 @@ module.exports = {
 					"isEmpty": false,
 					"isOffer": false,
 					"offerData": "特价",
-					"pointNum": 0
+					"pointNum": 0,
+					"nemuShow": false,
+					"nemuData": []
 				},
 				{
 					"cTitle": "伊利红枣酸奶",
@@ -9224,7 +9252,9 @@ module.exports = {
 					"isEmpty": false,
 					"isOffer": false,
 					"offerData": "特价",
-					"pointNum": 0
+					"pointNum": 0,
+					"nemuShow": false,
+					"nemuData": []
 				}
 			]
 		},
@@ -9241,7 +9271,9 @@ module.exports = {
 					"isEmpty": false,
 					"isOffer": false,
 					"offerData": "特价",
-					"pointNum": 0
+					"pointNum": 0,
+					"nemuShow": false,
+					"nemuData": []
 				},
 				{
 					"cTitle": "星球杯10个装",
@@ -9251,7 +9283,9 @@ module.exports = {
 					"isEmpty": false,
 					"isOffer": false,
 					"offerData": "特价",
-					"pointNum": 0
+					"pointNum": 0,
+					"nemuShow": false,
+					"nemuData": []
 				},
 				{
 					"cTitle": "爆米花巧克力味",
@@ -9261,7 +9295,9 @@ module.exports = {
 					"isEmpty": false,
 					"isOffer": false,
 					"offerData": "特价",
-					"pointNum": 0
+					"pointNum": 0,
+					"nemuShow": false,
+					"nemuData": []
 				},
 				{
 					"cTitle": "红番薯170g",
@@ -9271,7 +9307,9 @@ module.exports = {
 					"isEmpty": false,
 					"isOffer": false,
 					"offerData": "特价",
-					"pointNum": 0
+					"pointNum": 0,
+					"nemuShow": false,
+					"nemuData": []
 				},
 				{
 					"cTitle": "冻干柠檬片",
@@ -9281,7 +9319,9 @@ module.exports = {
 					"isEmpty": false,
 					"isOffer": false,
 					"offerData": "特价",
-					"pointNum": 0
+					"pointNum": 0,
+					"nemuShow": false,
+					"nemuData": []
 				},
 				{
 					"cTitle": "香酥脆猫耳朵5小包",
@@ -9291,7 +9331,9 @@ module.exports = {
 					"isEmpty": false,
 					"isOffer": false,
 					"offerData": "特价",
-					"pointNum": 0
+					"pointNum": 0,
+					"nemuShow": false,
+					"nemuData": []
 				},
 				{
 					"cTitle": "单晶冰糖",
@@ -9301,7 +9343,9 @@ module.exports = {
 					"isEmpty": false,
 					"isOffer": false,
 					"offerData": "特价",
-					"pointNum": 0
+					"pointNum": 0,
+					"nemuShow": false,
+					"nemuData": []
 				}
 			]
 		}
@@ -9454,7 +9498,7 @@ exports = module.exports = __webpack_require__(1)(undefined);
 
 
 // module
-exports.push([module.i, "/**\r\n * @file 右侧主体css\r\n * @author Qc<896853205@qq.com>\r\n */\r\n\r\n/* ---主体部分-开始--- */\r\n.body-right-div {\r\n    width: calc(100% - 100px);\r\n    margin-left: 100px;\r\n    float: left;\r\n}\r\n.body-right-div .right-main {\r\n    padding: 10px;\r\n    overflow: hidden;\r\n    border-bottom: 2px solid rgb(242,242,242);\r\n    position: relative;\r\n}\r\n.right-main img {\r\n    width: 60px;\r\n    height: 60px;\r\n    background: #ddd;\r\n    float: left;\r\n    margin-right:10px;\r\n}\r\n.right-main .right-info-div {\r\n    float: left;\r\n    position: relative;\r\n    height: 60px;\r\n    width: calc(100% - 70px);\r\n}\r\n.right-main .right-h5 {\r\n    font-weight:400;\r\n    font-size:16px;\r\n}\r\n.right-main .right-price-span {\r\n    position:absolute;\r\n    bottom:0;\r\n    left:0;\r\n}\r\n.right-main .right-config {\r\n    position: absolute;\r\n    right: 0;\r\n    bottom: 0;\r\n    overflow: hidden;\r\n}\r\n.right-main .right-config .right-minus-button {\r\n    float: left;\r\n    border-radius: 12.5px 0 0 12.5px;\r\n    width: 25px;\r\n    height: 25px;\r\n    border: 1px solid rgb(232,56,40);\r\n    border-right: 0;\r\n    background: #fff;\r\n    color: rgb(232,56,40);\r\n}\r\n.right-main .right-config .right-minus-button-group {\r\n    float: left;\r\n    overflow: hidden;\r\n    -webkit-transition: .3s;\r\n    transition: .3s;\r\n}\r\n.right-main .right-config .right-minus-button-group .right-show-num {\r\n    float: left;\r\n    width: 25px;\r\n    height: 25px;\r\n    border: 1px solid rgb(232,56,40);\r\n    text-align: center;\r\n    line-height: 25px;\r\n    box-sizing: border-box;\r\n}\r\n.right-main .right-config .right-add-button {\r\n    background: rgb(232,56,40);\r\n    color:#fff;\r\n    width: 25px;\r\n    height: 25px;\r\n    border-radius: 50%;\r\n    font-weight: 800;\r\n    border: transparent;\r\n    -webkit-transition: .5s;\r\n    transition: .5s;\r\n}\r\n.right-main .right-config .right-add-button-active {\r\n    background: rgb(232,56,40);\r\n    color:#fff;\r\n    width: 25px;\r\n    height: 25px;\r\n    border-radius: 0 12.5px 12.5px 0;\r\n    font-weight: 800;\r\n    border: transparent;\r\n    -webkit-transition: .5s;\r\n    transition: .5s;\r\n}\r\n.right-main .right-span-tag {\r\n    position: absolute;\r\n    top: 5px;\r\n    left: 5px;\r\n}\r\n.right-main .right-span-tag span {\r\n    display: block;\r\n    width: 60px;\r\n    color: #fff;\r\n    background: rgb(255,152,0);\r\n    text-align: center;\r\n    font-size: 14px;\r\n    padding: 2px 0;\r\n    box-shadow: 0 0 4px #666;\r\n}\r\n.triangle-topright {\r\n    display: block;\r\n    width: 0;\r\n    height: 0;\r\n    border-top: 5px solid rgb(174,120,60);\r\n    border-left: 5px solid transparent;\r\n}\r\n.sell-out-div {\r\n    position: absolute;\r\n    width: 100%;\r\n    height: 100%;\r\n    z-index: 3;\r\n    background: rgba(255,255,255,.6);\r\n}\r\n.sell-out-div span {\r\n    position: absolute;\r\n    left: 30%;\r\n    top: 10px;\r\n    -webkit-transform: rotate(-22deg);\r\n            transform: rotate(-22deg);\r\n    background: #fff;\r\n    border: 3px solid rgb(252,132,120);\r\n    border-radius: 3px;\r\n    color: rgb(252,132,120);\r\n    font-size: 25px;\r\n    padding: 3px 8px;\r\n}\r\n/* ---主体部分-结束--- */", ""]);
+exports.push([module.i, "/**\r\n * @file 右侧主体css\r\n * @author Qc<896853205@qq.com>\r\n */\r\n\r\n/* ---主体部分-开始--- */\r\n.body-right-div {\r\n    width: calc(100% - 100px);\r\n    margin-left: 100px;\r\n    float: left;\r\n}\r\n.body-right-div .right-main {\r\n    padding: 10px;\r\n    max-height: 60px;\r\n    overflow: hidden;\r\n    border-bottom: 2px solid rgb(242,242,242);\r\n    position: relative;\r\n    -webkit-transition: .5s;\r\n    transition: .5s;\r\n}\r\n.right-main-show {\r\n    overflow: hidden;\r\n}\r\n.right-main img {\r\n    width: 60px;\r\n    height: 60px;\r\n    background: #ddd;\r\n    float: left;\r\n    margin-right:10px;\r\n}\r\n.right-main .right-info-div {\r\n    float: left;\r\n    position: relative;\r\n    height: 60px;\r\n    width: calc(100% - 70px);\r\n}\r\n.right-main .right-h5 {\r\n    font-weight:400;\r\n    font-size:16px;\r\n}\r\n.right-main .right-price-span {\r\n    position:absolute;\r\n    bottom:0;\r\n    left:0;\r\n}\r\n.right-main .right-config {\r\n    position: absolute;\r\n    right: 0;\r\n    bottom: 0;\r\n    overflow: hidden;\r\n}\r\n.right-main .right-config .right-minus-button {\r\n    float: left;\r\n    border-radius: 12.5px 0 0 12.5px;\r\n    width: 25px;\r\n    height: 25px;\r\n    border: 1px solid rgb(232,56,40);\r\n    border-right: 0;\r\n    background: #fff;\r\n    color: rgb(232,56,40);\r\n}\r\n.right-main .right-config .right-minus-button-group {\r\n    float: left;\r\n    overflow: hidden;\r\n    -webkit-transition: .3s;\r\n    transition: .3s;\r\n}\r\n.right-main .right-config .right-minus-button-group .right-show-num {\r\n    float: left;\r\n    width: 25px;\r\n    height: 25px;\r\n    border: 1px solid rgb(232,56,40);\r\n    text-align: center;\r\n    line-height: 25px;\r\n    box-sizing: border-box;\r\n}\r\n.right-main .right-config .right-add-button {\r\n    background: rgb(232,56,40);\r\n    color:#fff;\r\n    width: 25px;\r\n    height: 25px;\r\n    border-radius: 50%;\r\n    font-weight: 800;\r\n    border: transparent;\r\n    -webkit-transition: .5s;\r\n    transition: .5s;\r\n}\r\n.right-main .right-config .right-add-button-active {\r\n    background: rgb(232,56,40);\r\n    color: #fff;\r\n    width: 25px;\r\n    height: 25px;\r\n    border-radius: 0 12.5px 12.5px 0;\r\n    font-weight: 800;\r\n    border: transparent;\r\n    -webkit-transition: .5s;\r\n    transition: .5s;\r\n}\r\n.right-main .right-span-tag {\r\n    position: absolute;\r\n    top: 5px;\r\n    left: 5px;\r\n}\r\n.right-main .right-span-tag span {\r\n    display: block;\r\n    width: 60px;\r\n    color: #fff;\r\n    background: rgb(255,152,0);\r\n    text-align: center;\r\n    font-size: 14px;\r\n    padding: 1px 0;\r\n    box-shadow: 0 0 4px #666;\r\n}\r\n.triangle-topright {\r\n    display: block;\r\n    width: 0;\r\n    height: 0;\r\n    border-top: 5px solid rgb(174,120,60);\r\n    border-left: 5px solid transparent;\r\n}\r\n.sell-out-div {\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    width: 100%;\r\n    height: 100%;\r\n    z-index: 3;\r\n    background: rgba(255,255,255,.6);\r\n}\r\n.sell-out-div span {\r\n    position: absolute;\r\n    left: 30%;\r\n    top: 20px;\r\n    -webkit-transform: rotate(-22deg);\r\n            transform: rotate(-22deg);\r\n    background: #fff;\r\n    border: 3px solid rgb(252,132,120);\r\n    border-radius: 3px;\r\n    color: rgb(252,132,120);\r\n    font-size: 25px;\r\n    padding: 3px 8px;\r\n}\r\n.right-nemu-button {\r\n    position: absolute;\r\n    right: 0;\r\n    top: 0;\r\n}\r\n.right-nemu-button button {\r\n    background: #fff;\r\n    width: 25px;\r\n    height: 25px;\r\n    border: 0;\r\n    font-size: 18px;\r\n}\r\n.right-nemu {\r\n    margin-top: 10px;\r\n    overflow: hidden;\r\n}\r\n.nemu-inner-div {\r\n    float: left;\r\n}\r\n/* ---主体部分-结束--- */", ""]);
 
 // exports
 
@@ -11634,8 +11678,12 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 						});
 						liActive.isActive = true;
 					},
-					getImgUrl: function getImgUrl(imgUrl, dom) {
-						dom.src = './assets/' + imgUrl.cImgUrl;
+
+					/**
+      * 单独菜,菜单显示
+      */
+					showMenu: function showMenu(item) {
+						item.nemuShow = !item.nemuShow;
 					}
 				}
 			});

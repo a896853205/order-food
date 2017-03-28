@@ -34,31 +34,48 @@
             <!-- 左边菜单-结束 -->
             <!-- 右边具体-开始 -->
             <div class="body-right-div" v-for="unitItem in allData.bodyData" v-bind:class="{ hidden: !unitItem.isActive }">
-                <div class="right-main" v-for="item in unitItem.rightData">
-                    <div class="right-span-tag" v-if="item.isOffer">
-                        <span>
-                            {{item.offerData}}
-                        </span>
-                        <i class="triangle-topright"></i>
-                    </div>
-                    <img v-bind:src="'./assets/' + item.cImgUrl" alt="">
-                    <div class="right-info-div">
-                        <h5 class="right-h5">{{item.cTitle}}</h5>
-                        <span class="right-price-span">
-                            <span class="text-red text-bold">¥{{item.cPrice}}</span> /{{item.cUnit}}
-                        </span>
-                        <div class="right-config">
-                            <div class="right-minus-button-group" v-if="item.pointNum != 0">
-                                <button class="right-minus-button" v-on:click="minusMeal(item, unitItem)">
-                                    <i class="fa fa-minus"></i>
+                <div class="right-main" v-for="item in unitItem.rightData" v-bind:style="{'max-height' : item.nemuShow ? '120px' : '60px'}">
+                    <div class="right-main-show">
+                        <div class="right-span-tag" v-if="item.isOffer">
+                            <span>
+                                {{item.offerData}}
+                            </span>
+                            <i class="triangle-topright"></i>
+                        </div>
+                        <img v-bind:src="'./assets/' + item.cImgUrl" alt="">
+                        <div class="right-info-div">
+                            <h5 class="right-h5">{{item.cTitle}}</h5>
+                            <span class="right-price-span">
+                                <span class="text-red text-bold">
+                                    ¥{{item.cPrice}}
+                                </span>
+                                /{{item.cUnit}}
+                            </span>
+                            <div class="right-nemu-button" v-if="item.nemuData.length != 0">
+                                <button v-on:click="showMenu(item)">
+                                    <i class="fa fa fa-angle-down"></i>
                                 </button>
-                                <div class="right-show-num">
-                                    {{item.pointNum}}
-                                </div>
                             </div>
-                            <button v-bind:class="[item.pointNum == 0 ? 'right-add-button' : 'right-add-button-active']" v-on:click="addMeal(item, unitItem)">
-                                <i class="fa fa-plus"></i>
-                            </button>
+                            <div class="right-config">
+                                <div class="right-minus-button-group" v-if="item.pointNum != 0">
+                                    <button class="right-minus-button" v-on:click="minusMeal(item, unitItem)">
+                                        <i class="fa fa-minus"></i>
+                                    </button>
+                                    <div class="right-show-num">
+                                        {{item.pointNum}}
+                                    </div>
+                                </div>
+                                <button v-bind:class="item.pointNum == 0 ? 'right-add-button' : 'right-add-button-active'" v-on:click="addMeal(item, unitItem)">
+                                    <i class="fa fa-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-nemu">
+                        <div v-for="nemuItem in item.nemuData">
+                            <div v-for="nemuName in nemuItem.optionName" class="nemu-inner-div">
+                                <label>{{nemuName}}</label><input v-model="nemuItem.optionModel" v-bind:value="nemuName" type="radio">
+                            </div>
                         </div>
                     </div>
                     <!-- 买完了-开始 -->
